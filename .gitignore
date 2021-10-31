@@ -1,0 +1,7 @@
+*.zip
+*.7z
+*.ipynb
+combine
+species
+./Chemkin
+./KM2_start
