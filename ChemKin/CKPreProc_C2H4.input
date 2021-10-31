@@ -1,0 +1,16 @@
+IN_CHEM_INPUT=D:\OneDrive-sjtu\OneDrive - sjtu.edu.cn\Projects\Zhou_Dezhi\Project\Preprocessing\Project_KM2\KM2\KM2.chmech
+IN_SURF_INPUT=
+IN_THERM_DB=D:\OneDrive-sjtu\OneDrive - sjtu.edu.cn\Projects\Zhou_Dezhi\Project\Preprocessing\Project_KM2\KM2\thermo.dat
+IN_TRANS_DB=D:\OneDrive-sjtu\OneDrive - sjtu.edu.cn\Projects\Zhou_Dezhi\Project\Preprocessing\Project_KM2\KM2\trans.dat
+FIT_TRANSPORT_PROPERTIES=1
+OUT_CHEM_OUTPUT=D:\OneDrive-sjtu\OneDrive - sjtu.edu.cn\Projects\Zhou_Dezhi\Project\Preprocessing\Project_KM2\ChemKin\C2H4_gas.out
+OUT_CHEM_ASC=D:\OneDrive-sjtu\OneDrive - sjtu.edu.cn\Projects\Zhou_Dezhi\Project\Preprocessing\Project_KM2\ChemKin\C2H4_gas.asc
+OUT_CHEM_SPECIES=D:\OneDrive-sjtu\OneDrive - sjtu.edu.cn\Projects\Zhou_Dezhi\Project\Preprocessing\Project_KM2\ChemKin\C2H4_gas.asu
+OUT_SURF_OUTPUT=
+OUT_SURF_ASC=
+OUT_SURF_SPECIES=
+OUT_TRAN_OUTPUT=D:\OneDrive-sjtu\OneDrive - sjtu.edu.cn\Projects\Zhou_Dezhi\Project\Preprocessing\Project_KM2\ChemKin\C2H4_gtran.out
+OUT_TRAN_ASC=D:\OneDrive-sjtu\OneDrive - sjtu.edu.cn\Projects\Zhou_Dezhi\Project\Preprocessing\Project_KM2\ChemKin\C2H4_gtran.asc
+OUT_XML_PARAMETERS=D:\OneDrive-sjtu\OneDrive - sjtu.edu.cn\Projects\Zhou_Dezhi\Project\Preprocessing\Project_KM2\ChemKin\C2H4.xml
+OUT_COMPOSITION=D:\OneDrive-sjtu\OneDrive - sjtu.edu.cn\Projects\Zhou_Dezhi\Project\Preprocessing\Project_KM2\ChemKin\C2H4.cklmnt
+OUT_REACTIONS=D:\OneDrive-sjtu\OneDrive - sjtu.edu.cn\Projects\Zhou_Dezhi\Project\Preprocessing\Project_KM2\ChemKin\C2H4.cktab

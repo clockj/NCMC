@@ -1,0 +1,13 @@
+#PBS -N FM-C2H4K
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=24:00:00
+##PBS -q uranus-6
+#PBS -m abe 
+#PBS -M zhou0195@umn.edu
+
+cd $PBS_O_WORKDIR
+
+source $HOME/FlameMaster/FlameManExports.bash
+
+FlameMaster_UnityLewis_NOREADCHI -i input_middle &> out
+##FlameMaster_NOREADCHI -i input &> out.0

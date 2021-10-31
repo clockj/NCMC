@@ -1,0 +1,20 @@
+#
+#Fri Jul 23 14:42:26 CST 2021
+Chemistry\ Set\ Name=NH3
+D\:\\OneDrive-sjtu\\OneDrive\ -\ sjtu.edu.cn\\Projects\\Zhou_Dezhi\\Project\\Preprocessing\\Project_KM2\\ChemKin__OUT_SURF_OUTPUT=
+D\:\\OneDrive-sjtu\\OneDrive\ -\ sjtu.edu.cn\\Projects\\Zhou_Dezhi\\Project\\Preprocessing\\Project_KM2\\ChemKin__OUT_SURF_ASC=
+Chemistry\ Set\ Description=
+D\:\\OneDrive-sjtu\\OneDrive\ -\ sjtu.edu.cn\\Projects\\Zhou_Dezhi\\Project\\Preprocessing\\Project_KM2\\ChemKin__OUT_CHEM_ASC=D\:\\OneDrive-sjtu\\OneDrive - sjtu.edu.cn\\Projects\\Zhou_Dezhi\\Project\\Preprocessing\\Project_KM2\\ChemKin\\NH3_gas.asc
+D\:\\OneDrive-sjtu\\OneDrive\ -\ sjtu.edu.cn\\Projects\\Zhou_Dezhi\\Project\\Preprocessing\\Project_KM2\\ChemKin__OUT_XML_PARAMETERS=D\:\\OneDrive-sjtu\\OneDrive - sjtu.edu.cn\\Projects\\Zhou_Dezhi\\Project\\Preprocessing\\Project_KM2\\ChemKin\\NH3.xml
+D\:\\OneDrive-sjtu\\OneDrive\ -\ sjtu.edu.cn\\Projects\\Zhou_Dezhi\\Project\\Preprocessing\\Project_KM2\\ChemKin__OUT_CHEM_SPECIES=D\:\\OneDrive-sjtu\\OneDrive - sjtu.edu.cn\\Projects\\Zhou_Dezhi\\Project\\Preprocessing\\Project_KM2\\ChemKin\\NH3_gas.asu
+IN_THERM_DB=D\:\\OneDrive-sjtu\\OneDrive - sjtu.edu.cn\\Projects\\Zhou_Dezhi\\Project\\Preprocessing\\Project_KM2\\Ammonia\\thermol.txt
+SYSTEM_FLAG=FALSE
+IN_CHEM_INPUT=D\:\\OneDrive-sjtu\\OneDrive - sjtu.edu.cn\\Projects\\Zhou_Dezhi\\Project\\Preprocessing\\Project_KM2\\Ammonia\\mechanism.txt
+D\:\\OneDrive-sjtu\\OneDrive\ -\ sjtu.edu.cn\\Projects\\Zhou_Dezhi\\Project\\Preprocessing\\Project_KM2\\ChemKin__OUT_CHEM_OUTPUT=D\:\\OneDrive-sjtu\\OneDrive - sjtu.edu.cn\\Projects\\Zhou_Dezhi\\Project\\Preprocessing\\Project_KM2\\ChemKin\\NH3_gas.out
+D\:\\OneDrive-sjtu\\OneDrive\ -\ sjtu.edu.cn\\Projects\\Zhou_Dezhi\\Project\\Preprocessing\\Project_KM2\\ChemKin__OUT_TRAN_ASC=D\:\\OneDrive-sjtu\\OneDrive - sjtu.edu.cn\\Projects\\Zhou_Dezhi\\Project\\Preprocessing\\Project_KM2\\ChemKin\\NH3_gtran.asc
+IN_TRANS_DB=D\:\\OneDrive-sjtu\\OneDrive - sjtu.edu.cn\\Projects\\Zhou_Dezhi\\Project\\Preprocessing\\Project_KM2\\Ammonia\\Trans.txt
+IN_SURF_INPUT=
+D\:\\OneDrive-sjtu\\OneDrive\ -\ sjtu.edu.cn\\Projects\\Zhou_Dezhi\\Project\\Preprocessing\\Project_KM2\\ChemKin__OUT_SURF_SPECIES=
+D\:\\OneDrive-sjtu\\OneDrive\ -\ sjtu.edu.cn\\Projects\\Zhou_Dezhi\\Project\\Preprocessing\\Project_KM2\\ChemKin__OUT_TRAN_OUTPUT=D\:\\OneDrive-sjtu\\OneDrive - sjtu.edu.cn\\Projects\\Zhou_Dezhi\\Project\\Preprocessing\\Project_KM2\\ChemKin\\NH3_gtran.out
+D\:\\OneDrive-sjtu\\OneDrive\ -\ sjtu.edu.cn\\Projects\\Zhou_Dezhi\\Project\\Preprocessing\\Project_KM2\\ChemKin__Run_Result=PREPROCESS_OK_42
+FIT_TRANSPORT_PROPERTIES=1

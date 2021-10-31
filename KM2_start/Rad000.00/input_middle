@@ -1,0 +1,139 @@
+########
+# SOOT #
+########
+
+WithSoot is TRUE
+NSootMoments = 4
+
+SootDASSL = TRUE
+SootSolve = FALSE
+
+Nucleation = TRUE
+Condensation = FALSE
+Coagulation = FALSE
+SurfaceGrowth = FALSE
+SurfaceOxidation = FALSE
+ThermoPhoresis = TRUE
+SootRadiation = FALSE
+SootUpdateProdRate = TRUE
+
+###################
+# Global Reaction #
+###################
+
+MechanismFile is ../../FlameMaster/FlameManData/KAUST-KM2.pre 
+
+#globalReaction is C2H4 + H2 + 3.5O2 == 2CO2 + 3H2O;
+globalReaction is C2H4 + 3O2 == 2CO2 + 2H2O;
+fuel is C2H4
+#fuel is H2
+oxidizer is O2
+
+ExactBackward is TRUE
+
+ConstLewisNumber is TRUE 
+LewisNumberFile is FileOne
+
+# No radiation case
+WithRadiation is FALSE
+
+##########################
+# Physical Configuration #
+##########################
+
+Flame is Counterflow Diffusion in Mixture Fraction Space
+
+pressure = 1.013e5
+
+
+#ScalarDissipationRate = 50 
+ScalarDissipationRate = 100
+ScalarDissipationRate = 150 
+ScalarDissipationRate = 200 
+ScalarDissipationRate = 250
+ScalarDissipationRate = 300 
+ScalarDissipationRate = 350 
+ScalarDissipationRate = 400 
+ScalarDissipationRate = 450 
+#ScalarDissipationRate = 0.1 
+#ScalarDissipationRate = 0.05 
+#ScalarDissipationRate = 0.02 
+#ScalarDissipationRate = 0.01
+#ScalarDissipationRate = 0.005 
+#ScalarDissipationRate = 0.002 
+#ScalarDissipationRate = 0.001
+
+Fuel Side {
+    dirichlet {
+        t = 298
+	Y->C2H4	= 0.35 #0.954 #0.638
+	#Y->H2 = 0.046
+	Y->N2 = 0.65
+    }
+}
+
+Oxidizer Side {
+    dirichlet {
+	t = 298
+	Y->N2 = 0.7680
+	Y->O2 = 0.2320
+    }
+}
+
+#######
+# I/O #
+#######
+
+StartProfilesFile is ./middle/C2H4_p01_0chi00050tf0298to0298
+#StartProfilesFile is ./upper/C2H4_p01_0chi00.02tf0298to0298
+
+OutputPath is ./middle
+WriteBT is FALSE
+WriteEverySolution is FALSE
+WriteRes is FALSE
+WriteFullRes is FALSE
+PrintRHSSpecies is FALSE
+PrintMolarFractions is FALSE
+
+############
+# Numerics #
+############
+
+initialgridpoints = 99
+maxgridpoints = 1023
+
+MaxIter = 100
+DeltaNewGrid = 25
+
+TolRes = 1.0e-15
+TolDy = 1e-5
+q = -0.25
+R = 60
+
+OneSolutionOneGrid = TRUE
+UseModifiedNewton = TRUE
+LambdaMin = 1.0e-2
+DampFlag = TRUE
+# TimeDepFlag = TRUE
+DeltaTStart = 1.0e-6
+
+UseSecOrdJac = TRUE
+
+######################
+# Sensivity Analysis #
+######################
+
+#SensAnal is TRUE
+#SensObj is A2-C10H8
+#SensObj is A2R5-C12H8
+#SensObj is A3-C14H10
+#SensObj is C9H8
+#SensObj is C9H7
+
+#ReactionFluxAnal is TRUE
+
+#ToSpecies is N2 
+#FromSpecies is C2H4 
+#ContSide is right
+#ContInc = 0.1
+#ContBound = 0.65

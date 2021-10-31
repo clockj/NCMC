@@ -1,0 +1,258 @@
+executing: 'FlameMaster_UnityLewis_NOREADCHI -i input_middle_1'
+
+FlameMaster Version 3.3 written by Heinz Pitsch
+
+use mechanism file '../../FlameMaster/FlameManData/KAUST-KM2.pre'
+outpath is './middle/'
+initial pressure is 1.013 bar
+numerical evaluation of Jacobian
+initial scalar dissipation rate is from FM input 40
+use startprofiles file './middle/C2H4_p01_0chi00050tf0298to0298'
+choose inputGrid
+Couldn't open "FileOne"---all Lewis numbers will be set to 1.0
+ZRef = 0.162263
+It = 1     GrdPts = 1023  Lambda = 0.1   ||dY|| = 2.6742  ||Res|| = 1.54762e-05
+It = 2     GrdPts = 1023  Lambda = 1     ||dY|| = 1.64038  ||Res|| = 0.000480256
+It = 3     GrdPts = 1023  Lambda = 1     ||dY|| = 1.04921  ||Res|| = 3.81357e-05
+It = 3     GrdPts = 1023  Lambda = 1     ||dY|| = 0.101875  ||Res|| = 1.78621e-06  modified
+It = 3     GrdPts = 1023  Lambda = 1     ||dY|| = 0.00603893  ||Res|| = 1.46569e-07  modified
+It = 4     GrdPts = 1023  Lambda = 0.1   ||dY|| = 0.00032098  ||Res|| = 1.31912e-07
+generate new grid
+It = 5     GrdPts = 1023  Lambda = 0.01  ||dY|| = 0.00378982  ||Res|| = 1.40714e-05
+It = 6     GrdPts = 1023  Lambda = 1     ||dY|| = 0.00376064  ||Res|| = 5.41889e-09
+It = 6     GrdPts = 1023  Lambda = 1     ||dY|| = 3.06307e-05  ||Res|| = 6.78624e-11  modified
+It = 6     GrdPts = 1023  Lambda = 1     ||dY|| = 1.08927e-06  ||Res|| = 1.5997e-12  modified
+It = 7     GrdPts = 1023  Lambda = 0.1   ||dY|| = 8.43789e-08  ||Res|| = 1.44052e-12
+* newton iteration converged *
+
+Tmax = 1401.37 @ Z = 0.241193 and Chi_ref = 40
+scalar dissipation rate is now 30
+It = 1     GrdPts = 1023  Lambda = 0.1   ||dY|| = 1.8268  ||Res|| = 8.10967e-06
+It = 2     GrdPts = 1023  Lambda = 1     ||dY|| = 1.81925  ||Res|| = 0.000701792
+It = 3     GrdPts = 1023  Lambda = 1     ||dY|| = 0.325713  ||Res|| = 3.43755e-05
+It = 3     GrdPts = 1023  Lambda = 1     ||dY|| = 0.0833563  ||Res|| = 5.51068e-06  modified
+It = 4     GrdPts = 1023  Lambda = 0.8627  ||dY|| = 0.0143103  ||Res|| = 7.53499e-07
+generate new grid
+It = 5     GrdPts = 1023  Lambda = 0.2447  ||dY|| = 0.00404825  ||Res|| = 1.95835e-05
+It = 5     GrdPts = 1023  Lambda = 0.2447  ||dY|| = 0.00308351  ||Res|| = 1.47938e-05  modified
+It = 6     GrdPts = 1023  Lambda = 0.7275  ||dY|| = 0.00275333  ||Res|| = 4.03487e-06
+It = 6     GrdPts = 1023  Lambda = 0.7275  ||dY|| = 0.000944342  ||Res|| = 1.10248e-06  modified
+It = 6     GrdPts = 1023  Lambda = 0.7275  ||dY|| = 0.000414638  ||Res|| = 3.01717e-07  modified
+It = 6     GrdPts = 1023  Lambda = 0.7275  ||dY|| = 0.000175885  ||Res|| = 8.27316e-08  modified
+It = 6     GrdPts = 1023  Lambda = 0.7275  ||dY|| = 6.95484e-05  ||Res|| = 2.27436e-08  modified
+It = 6     GrdPts = 1023  Lambda = 0.7275  ||dY|| = 2.60943e-05  ||Res|| = 6.27438e-09  modified
+It = 6     GrdPts = 1023  Lambda = 0.7275  ||dY|| = 9.44595e-06  ||Res|| = 1.73933e-09  modified
+It = 7     GrdPts = 1023  Lambda = 0.07275  ||dY|| = 3.71429e-06  ||Res|| = 1.6128e-09
+* newton iteration converged *
+
+Tmax = 1378.67 @ Z = 0.253186 and Chi_ref = 30
+scalar dissipation rate is now 20
+It = 1     GrdPts = 1023  Lambda = 0.1   ||dY|| = 2.30634  ||Res|| = 2.6578e-05
+It = 2     GrdPts = 1023  Lambda = 1     ||dY|| = 3.32791  ||Res|| = 0.00194894
+It = 3     GrdPts = 1023  Lambda = 1     ||dY|| = 1.22209  ||Res|| = 0.000220647
+It = 3     GrdPts = 1023  Lambda = 1     ||dY|| = 1.09507  ||Res|| = 0.000101554  modified
+It = 4     GrdPts = 1023  Lambda = 0.6551  ||dY|| = 0.579205  ||Res|| = 0.000112017
+It = 5     GrdPts = 1023  Lambda = 1     ||dY|| = 0.202487  ||Res|| = 3.74062e-06
+It = 5     GrdPts = 1023  Lambda = 1     ||dY|| = 0.00604772  ||Res|| = 1.11106e-07  modified
+It = 6     GrdPts = 1023  Lambda = 0.9778  ||dY|| = 0.000155984  ||Res|| = 2.45424e-09
+generate new grid
+It = 7     GrdPts = 1023  Lambda = 0.09778  ||dY|| = 0.00918775  ||Res|| = 4.40673e-06
+It = 8     GrdPts = 1023  Lambda = 1     ||dY|| = 0.0081376  ||Res|| = 3.02696e-08
+It = 8     GrdPts = 1023  Lambda = 1     ||dY|| = 0.00168  ||Res|| = 1.16932e-08  modified
+It = 8     GrdPts = 1023  Lambda = 1     ||dY|| = 0.000568037  ||Res|| = 3.55683e-09  modified
+It = 8     GrdPts = 1023  Lambda = 1     ||dY|| = 0.000169874  ||Res|| = 1.0694e-09  modified
+It = 8     GrdPts = 1023  Lambda = 1     ||dY|| = 5.37217e-05  ||Res|| = 3.42563e-10  modified
+It = 8     GrdPts = 1023  Lambda = 1     ||dY|| = 1.79802e-05  ||Res|| = 1.15894e-10  modified
+It = 8     GrdPts = 1023  Lambda = 1     ||dY|| = 6.28379e-06  ||Res|| = 4.08542e-11  modified
+It = 9     GrdPts = 1023  Lambda = 0.1   ||dY|| = 3.51349e-06  ||Res|| = 3.85555e-11
+* newton iteration converged *
+
+Tmax = 1343.31 @ Z = 0.271167 and Chi_ref = 20
+scalar dissipation rate is now 10
+It = 1     GrdPts = 1023  Lambda = 0.1   ||dY|| = 4.22423  ||Res|| = 5.26127e-05
+It = 2     GrdPts = 1023  Lambda = 0.7428  ||dY|| = 7.42707  ||Res|| = 0.00107225
+It = 3     GrdPts = 1023  Lambda = 1     ||dY|| = 11.0238  ||Res|| = 0.000721274
+It = 4     GrdPts = 1023  Lambda = 1     ||dY|| = 2.82221  ||Res|| = 0.000146752
+It = 4     GrdPts = 1023  Lambda = 1     ||dY|| = 0.692483  ||Res|| = 7.66759e-06  modified
+It = 4     GrdPts = 1023  Lambda = 1     ||dY|| = 0.124187  ||Res|| = 1.36308e-06  modified
+It = 4     GrdPts = 1023  Lambda = 1     ||dY|| = 0.0174709  ||Res|| = 6.15781e-07  modified
+It = 5     GrdPts = 1023  Lambda = 0.1   ||dY|| = 0.0050605  ||Res|| = 5.54209e-07
+generate new grid
+It = 6     GrdPts = 1023  Lambda = 0.01265  ||dY|| = 0.00888311  ||Res|| = 6.70315e-06
+It = 7     GrdPts = 1023  Lambda = 1     ||dY|| = 0.0087694  ||Res|| = 2.81317e-07
+It = 7     GrdPts = 1023  Lambda = 1     ||dY|| = 0.000437168  ||Res|| = 1.4719e-07  modified
+It = 7     GrdPts = 1023  Lambda = 1     ||dY|| = 0.000213484  ||Res|| = 8.15428e-08  modified
+It = 7     GrdPts = 1023  Lambda = 1     ||dY|| = 0.000115366  ||Res|| = 4.60236e-08  modified
+It = 8     GrdPts = 1023  Lambda = 0.3784  ||dY|| = 0.000150199  ||Res|| = 2.86148e-08
+It = 9     GrdPts = 1023  Lambda = 1     ||dY|| = 9.27693e-05  ||Res|| = 5.3098e-10
+It = 9     GrdPts = 1023  Lambda = 1     ||dY|| = 3.04199e-06  ||Res|| = 7.18778e-12  modified
+It = 10    GrdPts = 1023  Lambda = 1     ||dY|| = 3.44308e-08  ||Res|| = 8.42553e-14
+* newton iteration converged *
+
+Tmax = 1270.18 @ Z = 0.308705 and Chi_ref = 10
+scalar dissipation rate is now 5
+It = 1     GrdPts = 1023  Lambda = 0.1   ||dY|| = 7.79096  ||Res|| = 7.09532e-05
+It = 2     GrdPts = 1023  Lambda = 0.8603  ||dY|| = 17.0458  ||Res|| = 0.00287974
+It = 3     GrdPts = 1023  Lambda = 1     ||dY|| = 7.36139  ||Res|| = 0.00322102
+It = 4     GrdPts = 1023  Lambda = 0.8452  ||dY|| = 46.7391  ||Res|| = 0.0185666
+It = 5     GrdPts = 1023  Lambda = 0.1   ||dY|| = 44.6096  ||Res|| = 0.0230923
+It = 6     GrdPts = 1023  Lambda = 0.01769  ||dY|| = 3.04735  ||Res|| = 0.0227386
+It = 7     GrdPts = 1023  Lambda = 0.09634  ||dY|| = 2.83232  ||Res|| = 0.0208378
+It = 8     GrdPts = 1023  Lambda = 0.09168  ||dY|| = 3.47269  ||Res|| = 0.0190854
+It = 9     GrdPts = 1023  Lambda = 0.1114  ||dY|| = 7.2018  ||Res|| = 0.0170395
+It = 10    GrdPts = 1023  Lambda = 0.1691  ||dY|| = 12.1719  ||Res|| = 0.0142456
+It = 11    GrdPts = 1023  Lambda = 0.1239  ||dY|| = 58.6447  ||Res|| = 0.0125927
+It = 12    GrdPts = 1023  Lambda = 0.04649  ||dY|| = 53.1504  ||Res|| = 0.013026
+It = 13    GrdPts = 1023  Lambda = 0.02031  ||dY|| = 103.27  ||Res|| = 0.0125272
+It = 14    GrdPts = 1023  Lambda = 0.1   ||dY|| = 380.164  ||Res|| = 0.0183997
+It = 15    GrdPts = 1023  Lambda = 0.09099  ||dY|| = 44.8542  ||Res|| = 0.0269734
+It = 16    GrdPts = 1023  Lambda = 0.1662  ||dY|| = 18.1199  ||Res|| = 0.0190302
+It = 17    GrdPts = 1023  Lambda = 0.1755  ||dY|| = 14.706  ||Res|| = 0.0149268
+It = 18    GrdPts = 1023  Lambda = 0.07772  ||dY|| = 20.5531  ||Res|| = 0.01351
+It = 19    GrdPts = 1023  Lambda = 0.1256  ||dY|| = 14.7647  ||Res|| = 0.0115084
+It = 20    GrdPts = 1023  Lambda = 0.1691  ||dY|| = 12.2826  ||Res|| = 0.00921693
+It = 21    GrdPts = 1023  Lambda = 0.1548  ||dY|| = 13.3795  ||Res|| = 0.00744335
+It = 22    GrdPts = 1023  Lambda = 0.1   ||dY|| = 23.9499  ||Res|| = 0.00673053
+It = 23    GrdPts = 1023  Lambda = 0.03726  ||dY|| = 52.6062  ||Res|| = 0.00673616
+It = 24    GrdPts = 1023  Lambda = 0.1   ||dY|| = 573.399  ||Res|| = 0.0767638
+It = 25    GrdPts = 1023  Lambda = 0.09497  ||dY|| = 41.2397  ||Res|| = 0.0124036
+generate new grid
+It = 26    GrdPts = 1023  Lambda = 0.1   ||dY|| = 34.2332  ||Res|| = 0.000950721
+It = 26    GrdPts = 1023  Lambda = 0.1   ||dY|| = 20.627  ||Res|| = 0.000999812  modified
+It = 27    GrdPts = 1023  Lambda = 0.05426  ||dY|| = 34.8614  ||Res|| = 0.000961346
+It = 28    GrdPts = 1023  Lambda = 0.1186  ||dY|| = 24.7445  ||Res|| = 0.00106055
+It = 29    GrdPts = 1023  Lambda = 0.1   ||dY|| = 37.4134  ||Res|| = 0.00235007
+It = 30    GrdPts = 1023  Lambda = 0.05455  ||dY|| = 39.1916  ||Res|| = 0.00226249
+It = 31    GrdPts = 1023  Lambda = 0.1   ||dY|| = 200.288  ||Res|| = 0.00241531
+It = 32    GrdPts = 1023  Lambda = 0.1   ||dY|| = 78.0465  ||Res|| = 0.015155
+It = 33    GrdPts = 1023  Lambda = 0.0951  ||dY|| = 17.2083  ||Res|| = 0.0127498
+It = 34    GrdPts = 1023  Lambda = 0.2087  ||dY|| = 5.70463  ||Res|| = 0.00968536
+It = 35    GrdPts = 1023  Lambda = 0.2031  ||dY|| = 6.00226  ||Res|| = 0.00822147
+It = 36    GrdPts = 1023  Lambda = 0.2842  ||dY|| = 10.906  ||Res|| = 0.00727013
+It = 37    GrdPts = 1023  Lambda = 0.592  ||dY|| = 894.667  ||Res|| = 0.0111263
+It = 38    GrdPts = 1023  Lambda = 0.1   ||dY|| = 1056.73  ||Res|| = 0.00992505
+It = 39    GrdPts = 1023  Lambda = 0.1   ||dY|| = 247.646  ||Res|| = 1.42968e+100
+# no convergence
+Tmax = 298 @ Z = 4.04788e-320 and Chi_ref = 5
+check if 'T1DSoot::RestoreSolution' is correct
+check if 'T1DSoot::SolutionToSolver' is correct
+scalar dissipation rate is now 8.75
+It = 1     GrdPts = 1023  Lambda = 0.1   ||dY|| = 1.32722  ||Res|| = 2.42757e-06
+It = 1     GrdPts = 1023  Lambda = 0.1   ||dY|| = 1.22449  ||Res|| = 8.60297e-06  modified
+It = 2     GrdPts = 1023  Lambda = 0.8095  ||dY|| = 1.31881  ||Res|| = 0.000113713
+It = 3     GrdPts = 1023  Lambda = 1     ||dY|| = 0.241057  ||Res|| = 3.49608e-06
+It = 3     GrdPts = 1023  Lambda = 1     ||dY|| = 0.00945004  ||Res|| = 1.25336e-07  modified
+It = 4     GrdPts = 1023  Lambda = 1     ||dY|| = 0.000718174  ||Res|| = 1.06171e-09
+generate new grid
+It = 5     GrdPts = 1023  Lambda = 0.1   ||dY|| = 0.00627987  ||Res|| = 2.58278e-06
+It = 6     GrdPts = 1023  Lambda = 1     ||dY|| = 0.00543384  ||Res|| = 1.31046e-07
+It = 6     GrdPts = 1023  Lambda = 1     ||dY|| = 0.00141247  ||Res|| = 5.49072e-08  modified
+It = 6     GrdPts = 1023  Lambda = 1     ||dY|| = 0.000630694  ||Res|| = 2.30087e-08  modified
+It = 6     GrdPts = 1023  Lambda = 1     ||dY|| = 0.000264647  ||Res|| = 9.63919e-09  modified
+It = 6     GrdPts = 1023  Lambda = 1     ||dY|| = 0.000110872  ||Res|| = 4.0383e-09  modified
+It = 6     GrdPts = 1023  Lambda = 1     ||dY|| = 4.64519e-05  ||Res|| = 1.69186e-09  modified
+It = 6     GrdPts = 1023  Lambda = 1     ||dY|| = 1.94624e-05  ||Res|| = 7.08821e-10  modified
+It = 6     GrdPts = 1023  Lambda = 1     ||dY|| = 8.15478e-06  ||Res|| = 2.96969e-10  modified
+It = 7     GrdPts = 1023  Lambda = 0.1   ||dY|| = 5.79637e-06  ||Res|| = 2.67405e-10
+* newton iteration converged *
+
+Tmax = 1253.2 @ Z = 0.317328 and Chi_ref = 8.75
+scalar dissipation rate is now 5
+It = 1     GrdPts = 1023  Lambda = 0.1   ||dY|| = 7.00211  ||Res|| = 6.93028e-05
+It = 2     GrdPts = 1023  Lambda = 0.971  ||dY|| = 17.2977  ||Res|| = 0.00393314
+It = 3     GrdPts = 1023  Lambda = 1     ||dY|| = 12.8666  ||Res|| = 0.00313152
+It = 4     GrdPts = 1023  Lambda = 0.1   ||dY|| = 105.974  ||Res|| = 0.0101737
+It = 5     GrdPts = 1023  Lambda = 0.01  ||dY|| = 195.483  ||Res|| = 0.0101884
+It = 6     GrdPts = 1023  Lambda = 0.1   ||dY|| = 97.4148  ||Res|| = 0.0147435
+It = 7     GrdPts = 1023  Lambda = 0.09952  ||dY|| = 10.3497  ||Res|| = 0.01242
+It = 8     GrdPts = 1023  Lambda = 1     ||dY|| = 3.81242  ||Res|| = 0.000601809
+It = 8     GrdPts = 1023  Lambda = 1     ||dY|| = 1.8522  ||Res|| = 0.000780498  modified
+It = 9     GrdPts = 1023  Lambda = 0.2948  ||dY|| = 3.93439  ||Res|| = 0.00063531
+It = 10    GrdPts = 1023  Lambda = 1     ||dY|| = 1.32603  ||Res|| = 0.000177371
+It = 10    GrdPts = 1023  Lambda = 1     ||dY|| = 0.510588  ||Res|| = 0.000138933  modified
+It = 10    GrdPts = 1023  Lambda = 1     ||dY|| = 0.274829  ||Res|| = 6.32567e-05  modified
+It = 10    GrdPts = 1023  Lambda = 1     ||dY|| = 0.132948  ||Res|| = 3.46742e-05  modified
+It = 10    GrdPts = 1023  Lambda = 1     ||dY|| = 0.0631737  ||Res|| = 1.54446e-05  modified
+It = 11    GrdPts = 1023  Lambda = 0.1288  ||dY|| = 0.0198125  ||Res|| = 1.34596e-05
+generate new grid
+It = 12    GrdPts = 1023  Lambda = 0.1324  ||dY|| = 0.018988  ||Res|| = 1.31026e-05
+It = 13    GrdPts = 1023  Lambda = 1     ||dY|| = 0.0165325  ||Res|| = 1.77246e-07
+It = 13    GrdPts = 1023  Lambda = 1     ||dY|| = 0.00029312  ||Res|| = 7.1028e-08  modified
+It = 13    GrdPts = 1023  Lambda = 1     ||dY|| = 0.00014646  ||Res|| = 2.96324e-08  modified
+It = 13    GrdPts = 1023  Lambda = 1     ||dY|| = 6.20485e-05  ||Res|| = 1.23736e-08  modified
+It = 13    GrdPts = 1023  Lambda = 1     ||dY|| = 2.59032e-05  ||Res|| = 5.16778e-09  modified
+It = 13    GrdPts = 1023  Lambda = 1     ||dY|| = 1.08192e-05  ||Res|| = 2.15843e-09  modified
+It = 13    GrdPts = 1023  Lambda = 1     ||dY|| = 4.51955e-06  ||Res|| = 9.01534e-10  modified
+It = 14    GrdPts = 1023  Lambda = 0.1   ||dY|| = 3.3413e-06  ||Res|| = 8.11408e-10
+* newton iteration converged *
+
+Tmax = 1149.15 @ Z = 0.372904 and Chi_ref = 5
+scalar dissipation rate is now 3
+It = 1     GrdPts = 1023  Lambda = 0.1   ||dY|| = 18.5853  ||Res|| = 0.000598339
+It = 2     GrdPts = 1023  Lambda = 0.5534  ||dY|| = 39.1669  ||Res|| = 0.00521633
+It = 3     GrdPts = 1023  Lambda = 0.1   ||dY|| = 69.1546  ||Res|| = 0.0147729
+It = 4     GrdPts = 1023  Lambda = 0.02977  ||dY|| = 47.6723  ||Res|| = 0.0148647
+It = 5     GrdPts = 1023  Lambda = 0.1   ||dY|| = 122.255  ||Res|| = 0.014744
+It = 6     GrdPts = 1023  Lambda = 0.09824  ||dY|| = 6.58355  ||Res|| = 0.0129009
+It = 7     GrdPts = 1023  Lambda = 0.3138  ||dY|| = 3.67305  ||Res|| = 0.00881593
+It = 8     GrdPts = 1023  Lambda = 0.2649  ||dY|| = 6.25296  ||Res|| = 0.00718439
+It = 9     GrdPts = 1023  Lambda = 0.5284  ||dY|| = 27.6956  ||Res|| = 0.0060571
+It = 10    GrdPts = 1023  Lambda = 0.1   ||dY|| = 33.351  ||Res|| = 0.000454764
+It = 10    GrdPts = 1023  Lambda = 0.1   ||dY|| = 15.1963  ||Res|| = 0.0057082  modified
+It = 11    GrdPts = 1023  Lambda = 0.01  ||dY|| = 1412.89  ||Res|| = 0.00558987
+It = 12    GrdPts = 1023  Lambda = 0.01  ||dY|| = 1286.03  ||Res|| = 0.00547056
+It = 13    GrdPts = 1023  Lambda = 0.01  ||dY|| = 352.319  ||Res|| = 0.00545912
+It = 14    GrdPts = 1023  Lambda = 0.01  ||dY|| = 244.725  ||Res|| = 0.00535656
+It = 15    GrdPts = 1023  Lambda = 0.1   ||dY|| = 1464.18  ||Res|| = 0.00217168
+It = 15    GrdPts = 1023  Lambda = 0.1   ||dY|| = 185.835  ||Res|| = 0.00180796  modified
+It = 16    GrdPts = 1023  Lambda = 0.1   ||dY|| = 3734.99  ||Res|| = 1.01292e+100
+# no convergence
+Tmax = 649.247 @ Z = 0.549683 and Chi_ref = 3
+check if 'T1DSoot::RestoreSolution' is correct
+check if 'T1DSoot::SolutionToSolver' is correct
+scalar dissipation rate is now 4.5
+It = 1     GrdPts = 1023  Lambda = 0.1   ||dY|| = 2.97083  ||Res|| = 2.12461e-05
+It = 1     GrdPts = 1023  Lambda = 0.1   ||dY|| = 2.78825  ||Res|| = 7.75706e-05  modified
+It = 2     GrdPts = 1023  Lambda = 0.7029  ||dY|| = 3.41809  ||Res|| = 0.000982803
+It = 3     GrdPts = 1023  Lambda = 1     ||dY|| = 1.03635  ||Res|| = 0.000234252
+It = 3     GrdPts = 1023  Lambda = 1     ||dY|| = 0.307084  ||Res|| = 4.8731e-05  modified
+It = 3     GrdPts = 1023  Lambda = 1     ||dY|| = 0.11147  ||Res|| = 3.06959e-05  modified
+It = 3     GrdPts = 1023  Lambda = 1     ||dY|| = 0.0221134  ||Res|| = 1.80139e-06  modified
+It = 4     GrdPts = 1023  Lambda = 0.1   ||dY|| = 0.0162562  ||Res|| = 1.6215e-06
+generate new grid
+It = 5     GrdPts = 1023  Lambda = 0.2034  ||dY|| = 0.0141019  ||Res|| = 2.44161e-06
+It = 6     GrdPts = 1023  Lambda = 1     ||dY|| = 0.0113517  ||Res|| = 1.04677e-07
+It = 6     GrdPts = 1023  Lambda = 1     ||dY|| = 0.00142479  ||Res|| = 5.6222e-09  modified
+It = 6     GrdPts = 1023  Lambda = 1     ||dY|| = 5.8896e-05  ||Res|| = 1.00117e-09  modified
+It = 6     GrdPts = 1023  Lambda = 1     ||dY|| = 8.83092e-06  ||Res|| = 1.86284e-10  modified
+It = 7     GrdPts = 1023  Lambda = 0.1   ||dY|| = 2.11658e-06  ||Res|| = 1.67694e-10
+* newton iteration converged *
+
+Tmax = 1114.12 @ Z = 0.392984 and Chi_ref = 4.5
+scalar dissipation rate is now 3
+It = 1     GrdPts = 1023  Lambda = 0.1   ||dY|| = 17.863  ||Res|| = 0.00046869
+It = 2     GrdPts = 1023  Lambda = 0.4937  ||dY|| = 136.521  ||Res|| = 0.00359569
+It = 3     GrdPts = 1023  Lambda = 0.1   ||dY|| = 23.7944  ||Res|| = 0.00323175
+It = 4     GrdPts = 1023  Lambda = 0.03099  ||dY|| = 5.90016  ||Res|| = 0.00313859
+It = 5     GrdPts = 1023  Lambda = 0.06554  ||dY|| = 9.66751  ||Res|| = 0.00294876
+It = 6     GrdPts = 1023  Lambda = 0.1285  ||dY|| = 7.13306  ||Res|| = 0.00260138
+It = 7     GrdPts = 1023  Lambda = 0.2337  ||dY|| = 5.17914  ||Res|| = 0.0020035
+It = 8     GrdPts = 1023  Lambda = 0.7274  ||dY|| = 2.92254  ||Res|| = 0.000592249
+It = 8     GrdPts = 1023  Lambda = 0.7274  ||dY|| = 1.0708  ||Res|| = 0.000174398  modified
+It = 8     GrdPts = 1023  Lambda = 0.7274  ||dY|| = 0.547363  ||Res|| = 4.80189e-05  modified
+It = 8     GrdPts = 1023  Lambda = 0.7274  ||dY|| = 0.261538  ||Res|| = 1.59019e-05  modified
+It = 8     GrdPts = 1023  Lambda = 0.7274  ||dY|| = 0.127497  ||Res|| = 8.36371e-06  modified
+It = 8     GrdPts = 1023  Lambda = 0.7274  ||dY|| = 0.0623698  ||Res|| = 4.8987e-06  modified
+It = 9     GrdPts = 1023  Lambda = 0.07274  ||dY|| = 0.0408626  ||Res|| = 4.54259e-06
+generate new grid
+It = 10    GrdPts = 1023  Lambda = 0.2326  ||dY|| = 0.039364  ||Res|| = 4.58395e-06
+It = 11    GrdPts = 1023  Lambda = 1     ||dY|| = 0.031171  ||Res|| = 4.00968e-08
+It = 11    GrdPts = 1023  Lambda = 1     ||dY|| = 0.000128146  ||Res|| = 1.21286e-08  modified
+It = 11    GrdPts = 1023  Lambda = 1     ||dY|| = 1.57675e-05  ||Res|| = 3.79373e-09  modified
+It = 11    GrdPts = 1023  Lambda = 1     ||dY|| = 4.9302e-06  ||Res|| = 1.18513e-09  modified
+It = 12    GrdPts = 1023  Lambda = 0.1   ||dY|| = 2.32565e-06  ||Res|| = 1.06667e-09
+* newton iteration converged *
+
+Tmax = 1015.44 @ Z = 0.446778 and Chi_ref = 3
+done
+

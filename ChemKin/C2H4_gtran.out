@@ -1,0 +1,291 @@
+
+
+     *****************************************************************
+     *                    ANSYS Chemkin-Pro 19.0                     *
+     *                       TRAN Application                        *
+     *             TRANSPORT PROPERTIES FITTING PROGRAM              *
+     *              Copyright(c) 2008-2017 ANSYS, Inc.               *             
+     *****************************************************************
+
+
+ N2              1    97.530     3.621     0.000     1.760     4.000
+ AR              0   136.500     3.330     0.000     0.000     0.000
+ H               0   145.000     2.050     0.000     0.000     0.000
+ O2              1   107.400     3.458     0.000     1.600     3.800
+ O               0    80.000     2.750     0.000     0.000     0.000
+ OH              1    80.000     2.750     0.000     0.000     0.000
+ H2              1    38.000     2.920     0.000     0.790   280.000
+ H2O             2   572.400     2.605     1.844     0.000     4.000
+ CO2             1   244.000     3.763     0.000     2.650     2.100
+ HO2             2   107.400     3.458     0.000     0.000     1.000
+ H2O2            2   107.400     3.458     0.000     0.000     3.800
+ CO              1    98.100     3.650     0.000     1.950     1.800
+ HCO             2   498.000     3.590     0.000     0.000     0.000
+ CH2O            2   498.000     3.590     0.000     0.000     2.000
+ C               0    71.400     3.298     0.000     0.000     0.000
+ CH              1    80.000     2.750     0.000     0.000     0.000
+ CH2             1   144.000     3.800     0.000     0.000     0.000
+ HCCO            2   150.000     2.500     0.000     0.000     1.000
+ CH3             1   144.000     3.800     0.000     0.000     0.000
+ C2H             1   209.000     4.100     0.000     0.000     2.500
+ CH2CO           2   436.000     3.970     0.000     0.000     2.000
+ C2H2            1   209.000     4.100     0.000     0.000     2.500
+ CH2D            ERROR...NO TRANSPORT DATA
+
+ CH3OH           2   481.800     3.626     0.000     0.000     1.000
+ CH2OH           2   417.000     3.690     1.700     0.000     2.000
+ CH3O            2   417.000     3.690     1.700     0.000     2.000
+ CH4             2   141.400     3.746     0.000     2.600    13.000
+ C2H3            2   209.000     4.100     0.000     0.000     1.000
+ C2H4            2   280.800     3.971     0.000     0.000     1.500
+ C2H6            2   252.300     4.302     0.000     0.000     1.500
+ C2H5            2   252.300     4.302     0.000     0.000     1.500
+ C3H3            2   252.000     4.760     0.000     0.000     1.000
+ C2O             1   232.400     3.828     0.000     0.000     1.000
+ H2CC            2   209.000     4.100     0.000     0.000     2.500
+ HCCOH           2   436.000     3.970     0.000     0.000     2.000
+ C4H2            1   357.000     5.180     0.000     0.000     1.000
+ NXXC4H3         ERROR...NO TRANSPORT DATA
+
+ IXXC4H3         ERROR...NO TRANSPORT DATA
+
+ PXC3H4          ERROR...NO TRANSPORT DATA
+
+ AXC3H4          ERROR...NO TRANSPORT DATA
+
+ C3H5XT          ERROR...NO TRANSPORT DATA
+
+ C3H5XS          ERROR...NO TRANSPORT DATA
+
+ C3H5XA          ERROR...NO TRANSPORT DATA
+
+ C4H4            2   357.000     5.180     0.000     0.000     1.000
+ C4H6X13         ERROR...NO TRANSPORT DATA
+
+ CH2CHO          2   436.000     3.970     0.000     0.000     2.000
+ C2H3CHO         2   357.000     5.176     0.000     0.000     1.000
+ C3H6            2   266.800     4.982     0.000     0.000     1.000
+ NXXC4H5         ERROR...NO TRANSPORT DATA
+
+ IXXC4H5         ERROR...NO TRANSPORT DATA
+
+ CH3CHO          2   436.000     3.970     0.000     0.000     2.000
+ CH3CO           2   436.000     3.970     0.000     0.000     2.000
+ CH2OCH2         1   252.000     4.760     0.000     0.000     1.000
+ CH2OCH          1   252.000     4.760     0.000     0.000     1.000
+ NXXC3H7         ERROR...NO TRANSPORT DATA
+
+ C4H7            2   357.000     5.176     0.000     0.000     1.000
+ C3H8            2   266.800     4.982     0.000     0.000     1.000
+ C4H8X1          ERROR...NO TRANSPORT DATA
+
+ C4H6X12         ERROR...NO TRANSPORT DATA
+
+ A1XXC6H5        ERROR...NO TRANSPORT DATA
+
+ A1XC6H6         ERROR...NO TRANSPORT DATA
+
+ C6H5CH3         2   495.300     5.680     0.430    12.300     1.000
+ IXXC4H7         ERROR...NO TRANSPORT DATA
+
+ CXC3H4          ERROR...NO TRANSPORT DATA
+
+ LXC5H7          ERROR...NO TRANSPORT DATA
+
+ IXXC4H8         ERROR...NO TRANSPORT DATA
+
+ IXXC3H7         ERROR...NO TRANSPORT DATA
+
+ CH3CHOCH2       2   357.000     5.180     0.000     0.000     1.000
+ CH2CHCO         1   357.000     5.180     0.000     0.000     1.000
+ CH3CH2CHO       1   252.000     4.760     0.000     0.000     1.000
+ CH3COCH3        2   357.000     5.176     0.000     0.000     1.000
+ H2C4O           2   357.000     5.180     0.000     0.000     1.000
+ C6H2            1   357.000     5.180     0.000     0.000     1.000
+ C6H3            2   357.000     5.180     0.000     0.000     1.000
+ LXXC6H4         ERROR...NO TRANSPORT DATA
+
+ CXXC6H4         ERROR...NO TRANSPORT DATA
+
+ CH2CHCHCHO      1   357.000     5.180     0.000     0.000     1.000
+ C4H5X2          ERROR...NO TRANSPORT DATA
+
+ CXXC5H6         ERROR...NO TRANSPORT DATA
+
+ CH3CHCHCO       1   357.000     5.180     0.000     0.000     1.000
+ C4H6O25         1   357.000     5.180     0.000     0.000     1.000
+ C2H3CHOCH2      1   357.000     5.180     0.000     0.000     1.000
+ C4H6X2          ERROR...NO TRANSPORT DATA
+
+ C4H6O23         1   357.000     5.180     0.000     0.000     1.000
+ CH3CHCHCHO      1   357.000     5.180     0.000     0.000     1.000
+ C4H4O           1   357.000     5.180     0.000     0.000     1.000
+ C4H9X1          ERROR...NO TRANSPORT DATA
+
+ C4H9X2          ERROR...NO TRANSPORT DATA
+
+ C4H8X2          ERROR...NO TRANSPORT DATA
+
+ IXXC4H9         ERROR...NO TRANSPORT DATA
+
+ C4H10           2   357.000     5.176     0.000     0.000     1.000
+ IXC4H10         ERROR...NO TRANSPORT DATA
+
+ TXXC4H9         ERROR...NO TRANSPORT DATA
+
+ CXXC5H5         ERROR...NO TRANSPORT DATA
+
+ C6H5CH2         2   495.300     5.680     0.430    12.300     1.000
+ A1CHO           2   593.000     5.470     2.800     0.000     1.000
+ A1CH2OH         2   572.000     5.820     1.700     0.000     1.000
+ A1OH            2   464.800     5.290     0.000    10.320     0.000
+ C6H5O           2   464.800     5.290     0.000    10.320     0.000
+ HOA1CH3         2   567.000     5.600     1.600     0.000     1.000
+ OA1CH3          2   567.000     5.600     1.600     0.000     1.000
+ C6H5CO          2   593.000     5.500     2.800     0.000     1.000
+ OC6H4O          2   485.000     5.425     0.400     0.000     1.000
+ C5H4O           2   464.800     5.290     0.000    10.320     0.000
+ C5H5OG1J3G      ERROR...NO TRANSPORT DATA
+
+ C5H5OG2J4G      ERROR...NO TRANSPORT DATA
+
+ C5H5OH          2   464.800     5.290     0.000    10.320     0.000
+ C5H4OH          2   464.800     5.290     0.000    10.320     0.000
+ CXXC4H5         ERROR...NO TRANSPORT DATA
+
+ C6H4CH3         2   495.300     5.680     0.430    12.300     1.000
+ A1C2HX          ERROR...NO TRANSPORT DATA
+
+ A1C2H           2   535.600     5.720     0.770    12.000     1.000
+ NXA1C2H2        ERROR...NO TRANSPORT DATA
+
+ IXA1C2H2        ERROR...NO TRANSPORT DATA
+
+ A1C2HD          ERROR...NO TRANSPORT DATA
+
+ A1C2H3          2   546.200     6.000     0.130    15.000     1.000
+ A1C2H3D         ERROR...NO TRANSPORT DATA
+
+ A1C2HC2H2       2   630.400     6.180     0.000    16.500     1.000
+ A1C2H_2         2   630.400     6.180     0.000    16.500     1.000
+ NAPHTHYN        ERROR...NO TRANSPORT DATA
+
+ A1C2HC2H2U      ERROR...NO TRANSPORT DATA
+
+ A2X1            ERROR...NO TRANSPORT DATA
+
+ A2XC10H8        ERROR...NO TRANSPORT DATA
+
+ A2X2            ERROR...NO TRANSPORT DATA
+
+ A2C2HA          2   693.100     6.470     0.000    18.000     1.000
+ A2C2HB          2   693.100     6.470     0.000    18.000     1.000
+ A2C2H2          2   693.100     6.470     0.000    18.000     1.000
+ A2C2HAD         ERROR...NO TRANSPORT DATA
+
+ A2C2HBD         ERROR...NO TRANSPORT DATA
+
+ A3X1            ERROR...NO TRANSPORT DATA
+
+ A2C2H_2         2   772.000     6.960     0.000    38.800     1.000
+ A3X4            ERROR...NO TRANSPORT DATA
+
+ A3XC14H10       ERROR...NO TRANSPORT DATA
+
+ A2R5            2   693.000     6.470     0.000     0.000     1.000
+ A2R5X           ERROR...NO TRANSPORT DATA
+
+ A3C2H           2   834.900     7.240     0.000    45.000     1.000
+ A3C2H2          2   834.900     7.240     0.000    45.000     1.000
+ A4XC16H10       ERROR...NO TRANSPORT DATA
+
+ A4X1            ERROR...NO TRANSPORT DATA
+
+ A4X2            ERROR...NO TRANSPORT DATA
+
+ A4X4            ERROR...NO TRANSPORT DATA
+
+ P2XC12H10       ERROR...NO TRANSPORT DATA
+
+ P2XH            ERROR...NO TRANSPORT DATA
+
+ P2XXH9C12       ERROR...NO TRANSPORT DATA
+
+ C4H             1   357.000     5.180     0.000     0.000     1.000
+ A1C2H4          2   546.200     6.000     0.000     0.000     1.000
+ A1C2H5          2   546.200     6.000     0.000     0.000     1.000
+ A1CH2O          2   495.300     5.680     0.000     0.000     1.000
+ FLTN            2   834.900     7.240     0.000     0.000     1.000
+ A2C2H2B         2   693.100     6.470     0.000     0.000     1.000
+ A2OX            ERROR...NO TRANSPORT DATA
+
+ A2OH            2   630.400     6.180     0.000     0.000     1.000
+ A2CH2           2   693.100     6.470     0.000     0.000     1.000
+ C9H7            2   630.400     6.180     0.000     0.000     1.000
+ A2CH3           2   693.100     6.470     0.000     0.000     1.000
+ C9H6O           2   630.400     6.180     0.000     0.000     1.000
+ C9H8            2   630.400     6.180     0.000     0.000     1.000
+ A2R5C2H2        2   772.000     6.960     0.000     0.000     1.000
+ A2R5C2H         2   772.800     6.940     0.000     0.000     1.000
+ A2R5C2HY        2   772.800     6.940     0.000     0.000     1.000
+ A3R5            2   837.500     7.280     0.000     0.000     0.000
+ A3R5X           2   837.500     7.280     0.000     0.000     0.000
+ A4R5            2   834.900     7.240     0.000     0.000     1.000
+ C8H2            1   495.300     5.680     0.000     0.000     1.000
+ C5H4CH2         2   464.800     5.290     0.000     0.000     1.000
+ C7H6            2   495.300     5.680     0.430    12.300     1.000
+ C7H5            2   495.300     5.680     0.430    12.300     1.000
+ C5H4            1   357.000     5.180     0.000     0.000     1.000
+ C5H3            1   357.000     5.180     0.000     0.000     1.000
+ C3H2            2   209.000     4.100     0.000     0.000     1.000
+ BIPHEN          2   693.100     6.470     0.000    18.000     1.000
+ A1C3H2          2   586.000     6.090     0.000    16.000     1.000
+ C10H10          2   630.400     6.180     0.000    16.500     1.000
+ C10H9           2   630.400     6.180     0.000    16.500     1.000
+ C14H14          2   772.000     6.960     0.000    38.800     1.000
+ C14H12          2   772.000     6.960     0.000    38.800     1.000
+ A3CH2           2   523.400     6.568     0.000     0.000     1.000
+ A3CH3           2   523.400     6.568     0.000     0.000     1.000
+ C5H5CH3         2   357.000     5.180     0.000     0.000     1.000
+ CHRYSEN         2   776.200     7.407     0.000     0.000     1.000
+ BAPYR           2   833.062     8.087     0.000     0.000     1.000
+ BEPYREN         2   833.062     8.087     0.000     0.000     1.000
+ A3C2HX2         ERROR...NO TRANSPORT DATA
+
+ A3C2HX2JS       ERROR...NO TRANSPORT DATA
+
+ CHRYSENJ1       2   776.200     7.407     0.000     0.000     1.000
+ CHRYSENJ4       2   776.200     7.407     0.000     0.000     1.000
+ CHRYSENJ5       2   776.200     7.407     0.000     0.000     1.000
+ PYC2HX1         ERROR...NO TRANSPORT DATA
+
+ PYC2HX2         ERROR...NO TRANSPORT DATA
+
+ PYC2HX4         ERROR...NO TRANSPORT DATA
+
+ PYC2HX1JP       ERROR...NO TRANSPORT DATA
+
+ PYC2HX2JS       ERROR...NO TRANSPORT DATA
+
+ BAPYRJS         2   833.062     8.087     0.000     0.000     1.000
+ PYC2HX4JS       ERROR...NO TRANSPORT DATA
+
+ BEPYRENJS       2   833.062     8.087     0.000     0.000     1.000
+ BGHIPER         2   990.963     8.358     0.000     0.000     1.000
+ PERYLEN         2   833.062     8.087     0.000     0.000     1.000
+ PERYLENJS       2   833.062     8.087     0.000     0.000     1.000
+ ANTHAN          2   990.963     8.358     0.000     0.000     1.000
+ ANTHANJS        2   990.963     8.358     0.000     0.000     1.000
+ BGHIPEJS1       2   990.963     8.358     0.000     0.000     1.000
+ CORONEN         2   961.300     7.708     0.000     0.000     1.000
+
+
+ ERROR...THERE IS AN ERROR IN THE TRANSPORT LINKFILE;
+ CHECK THE TRANSPORT FITTING PRINTOUT FOR ERROR MESSAGES.
+
+
+ TRANSPORT LIBRARY WORKING SPACE REQUIREMENTS ARE
+    INTEGER:   ********
+    REAL:      ********
+
+ ERROR...PROBLEM FITTING TRANSPORT PROPERTIES
