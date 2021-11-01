@@ -5,3 +5,4 @@ combine
 species
 ./Chemkin
 ./KM2_start
+*.f90
